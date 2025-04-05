@@ -52,7 +52,7 @@
                 "contents": [
                     {
                         "type": "UIButton",
-                        "id": "startgame",
+                        "id": "start",
                         "text": "Start Game"
                     },
                     {
