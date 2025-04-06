@@ -1,4 +1,4 @@
-<p align="center"><img src="./docs/images/terasology-logo.png" height=400px/></>
+<p align="center"><img src="./docs/images/logo.png" height=400px/></>
 <div align="center">
     <a href="https://github.com/MovingBlocks/Terasology/releases/latest">
         <img src="https://img.shields.io/github/release/MovingBlocks/Terasology.svg" alt="Release" />
