@@ -29,7 +29,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public class MainMenuScreen extends CoreScreenLayer {
-	
+
     private static final Logger logger = LoggerFactory.getLogger(MainMenuScreen.class);
     @In
     private GameEngine engine;
@@ -71,19 +71,20 @@ public class MainMenuScreen extends CoreScreenLayer {
             engine.changeState(new StateLoading(joinStatus));
         });
 */
-	WidgetUtil.trySubscribe(this, "start", button -> {
-    		logger.info("Start Game button clicked");
+    WidgetUtil.trySubscribe(this, "start", button -> {
+        logger.info("Start Game button clicked");
 
-    		JoinStatus joinStatus;
-		try {
-		    joinStatus = networkSystem.join("localhost", 25777);
-		} catch (InterruptedException e) {
-		    logger.error("Failed to join the server due to interruption", e);
-		    return;
-		}
+        JoinStatus joinStatus;
+        try {
+            joinStatus = networkSystem.join("localhost", 25777);
+        } catch (InterruptedException e) {
+            logger.error("Failed to join the server due to interruption", e);
+            return;
+        }
 
-	    	engine.changeState(new StateLoading(joinStatus));
-	});
+        engine.changeState(new StateLoading(joinStatus));
+    });
+
 
         WidgetUtil.trySubscribe(this, "settings", button -> triggerForwardAnimation(SettingsMenuScreen.ASSET_URI));
         WidgetUtil.trySubscribe(this, "extras", button -> triggerForwardAnimation(ExtrasMenuScreen.ASSET_URI));

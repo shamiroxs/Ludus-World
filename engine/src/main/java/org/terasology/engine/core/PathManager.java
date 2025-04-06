@@ -165,12 +165,14 @@ public final class PathManager {
      */
     public void useOverrideHomePath(Path rootPath) throws IOException {
     // ✅ Create the directory if it doesn't exist
-    	if (!Files.exists(rootPath)) {
-        	Files.createDirectories(rootPath);
-    	}
+        // Fixed version with spaces instead of tabs
+        if (!Files.exists(rootPath)) {
+            Files.createDirectories(rootPath);
+        }
 
-    	this.homePath = rootPath.toRealPath(); // now this won't crash
-    	updateDirs();
+        this.homePath = rootPath.toRealPath(); // now this won't crash
+        updateDirs();
+
 }
 
 
