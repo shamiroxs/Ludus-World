@@ -511,10 +511,14 @@
       "title": "main",
       "seed": "POnlOU4EgbcWMREz",
       "time": 25920002,
-      "worldGenerator": "CoreWorlds:facetedsimplex"
+      "worldGenerator": "LudusCore:CustomFacetedSimplex"
     }
   },
   "modules": [
+    {
+      "name": "LudusCore",
+      "version": "1.0.0"
+    },
     {
       "name": "FlexiblePathfinding",
       "version": "1.1.0-SNAPSHOT"

@@ -1,7 +1,7 @@
 {
   "title": "Game",
   "seed": "",
-  "time": 3474368,
+  "time": 615547,
   "registeredBlockFamilies": [
     "IRLCorp:FluidPump",
     "CoreAssets:IronOre",
@@ -511,7 +511,7 @@
       "title": "main",
       "seed": "POnlOU4EgbcWMREz",
       "time": 25920002,
-      "worldGenerator": "CoreWorlds:facetedsimplex"
+      "worldGenerator": "LudusCore:CustomFacetedSimplex"
     }
   },
   "modules": [
@@ -538,6 +538,10 @@
     {
       "name": "CoreWorlds",
       "version": "2.1.0-SNAPSHOT"
+    },
+    {
+      "name": "LudusCore",
+      "version": "1.0.0"
     },
     {
       "name": "IRLCorp",
@@ -717,7 +721,7 @@
     }
   ],
   "moduleConfigs": {
-    "CoreWorlds:facetedsimplex": {
+    "LudusCore:CustomFacetedSimplex": {
       "Trees": {
         "density": 0.2
       },
