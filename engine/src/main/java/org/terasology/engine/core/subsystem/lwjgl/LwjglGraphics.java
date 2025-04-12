@@ -146,7 +146,7 @@ public class LwjglGraphics extends BaseLwjglSubsystem {
         GLFW.glfwWindowHint(GLFW.GLFW_OPENGL_PROFILE, GLFW.GLFW_OPENGL_CORE_PROFILE);
 
         long window = GLFW.glfwCreateWindow(
-                config.getWindowWidth(), config.getWindowHeight(), "Terasology Alpha", 0, 0);
+                config.getWindowWidth(), config.getWindowHeight(), "Ludus World", 0, 0);
         if (window == 0) {
             throw new RuntimeException("Failed to create window");
         }

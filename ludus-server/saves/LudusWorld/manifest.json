@@ -1,7 +1,7 @@
 {
   "title": "LudusWorld",
   "seed": "POnlOU4EgbcWMREz",
-  "time": 191625,
+  "time": 927358,
   "registeredBlockFamilies": [
     "IRLCorp:FluidPump",
     "CoreAssets:IronOre",
@@ -107,7 +107,7 @@
   ],
   "blockIdMap": {
     "CoreAssets:Iris": 67,
-    "ManualLabor:TempBlock:engine:halfBlock": 84,
+    "ManualLabor:TempBlock:engine:halfBlock": 83,
     "CoreAssets:YellowFlower": 72,
     "CoreAdvancedAssets:door-cyan-bottom.FRONT": 7,
     "ManualLabor:SiftingTable.FRONT": 356,
@@ -131,9 +131,9 @@
     "AdditionalFruits:MelonVineStem": 1,
     "IRLCorp:Axle.BACK": 350,
     "IRLCorp:ItemExtractor.BACK": 372,
-    "EdibleFlora:FruitingBananaBush": 57,
+    "EdibleFlora:FruitingBananaBush": 55,
     "ManualLabor:ShapingTable.FRONT": 390,
-    "EdibleFlora:FruitingOrangeBush": 60,
+    "EdibleFlora:FruitingOrangeBush": 58,
     "CoreAssets:RedShroom": 75,
     "CoreAssets:Sand": 43,
     "IRLCorp:Axle.FRONT": 347,
@@ -161,13 +161,13 @@
     "IRLCorp:FluidPump.7": 303,
     "ManualLabor:MetalChest.BACK": 104,
     "IRLCorp:FluidPump.9": 301,
-    "FlowingLiquids:DebugLiquid": 41,
+    "FlowingLiquids:DebugLiquid": 42,
     "ManualLabor:MetalBox": 100,
     "CoreAdvancedAssets:door-cyan-top.RIGHT": 4,
     "CoreAssets:Torch.LEFT": 394,
     "IRLCorp:FrictionHeater.FRONT": 382,
     "IRLCorp:ItemExtractor.TOP": 367,
-    "EdibleFlora:FruitingAppleBush": 59,
+    "EdibleFlora:FruitingAppleBush": 57,
     "CoreAdvancedAssets:TrunkLeft.FRONT": 30,
     "ManualLabor:Hearth.FRONT": 317,
     "ManualLabor:WoodenChest.BACK": 380,
@@ -205,12 +205,12 @@
     "IRLCorp:FluidPipe.36": 141,
     "IRLCorp:FluidPipe.37": 140,
     "CoreAdvancedAssets:door-bar-top.BACK": 22,
-    "EdibleFlora:FruitingGrapeBud": 53,
+    "EdibleFlora:FruitingGrapeBud": 51,
     "IRLCorp:FluidPipe.40": 137,
     "IRLCorp:Grinder.FRONT": 374,
     "IRLCorp:WoodenAxle.TOP": 90,
     "CoreAdvancedAssets:door-cyan-bottom.RIGHT": 8,
-    "EdibleFlora:FruitingStarfruitBush": 55,
+    "EdibleFlora:FruitingStarfruitBush": 53,
     "ManualLabor:TempBlock:engine:Stair.LEFT": 86,
     "AdditionalFruits:PassionfruitVineStem": 28,
     "CoreAdvancedAssets:door-cyan-bottom.BACK": 9,
@@ -224,7 +224,7 @@
     "ManualLabor:SiftingTable.RIGHT": 357,
     "ManualLabor:ShapingTable.LEFT": 389,
     "IRLCorp:FluidPipe.10": 167,
-    "EdibleFlora:FruitingCarrotBush": 58,
+    "EdibleFlora:FruitingCarrotBush": 56,
     "IRLCorp:FluidPipe.11": 166,
     "IRLCorp:FluidPipe.12": 165,
     "IRLCorp:Winder.BACK": 344,
@@ -261,7 +261,7 @@
     "ManualLabor:TempBlock:engine:Stair.FRONT": 87,
     "IRLCorp:FluidPipe.50": 127,
     "IRLCorp:FluidPipe.51": 126,
-    "engine:air": 42,
+    "engine:air": 41,
     "ManualLabor:WoodenChest.FRONT": 378,
     "IRLCorp:FluidPipe.52": 125,
     "IRLCorp:FluidPipe.53": 124,
@@ -325,7 +325,7 @@
     "ManualLabor:ShapingTable.BACK": 392,
     "IRLCorp:FluidTank.LEFT": 179,
     "IRLCorp:WoodenAxle.BOTTOM": 93,
-    "JoshariasSurvival:Rock": 52,
+    "JoshariasSurvival:Rock": 61,
     "IRLCorp:FluidPump.62": 248,
     "IRLCorp:FluidPump.61": 249,
     "IRLCorp:FluidPump.63": 247,
@@ -341,7 +341,7 @@
     "CoreAssets:IronOre": 387,
     "CoreAdvancedAssets:DoorTop.LEFT": 10,
     "IRLCorp:Sawmill.LEFT": 363,
-    "JoshariasSurvival:JoshaberryBushFull": 51,
+    "JoshariasSurvival:JoshaberryBushFull": 60,
     "IRLCorp:ItemExtractor.FRONT": 369,
     "IRLCorp:FluidPump.19": 291,
     "IRLCorp:FluidPump.18": 292,
@@ -389,8 +389,8 @@
     "IRLCorp:FluidPump.32": 278,
     "IRLCorp:FluidPump.35": 275,
     "IRLCorp:HeatDuct.7": 239,
-    "IRLCorp:HeatDuct.8": 238,
     "IRLCorp:FluidPump.34": 276,
+    "IRLCorp:HeatDuct.8": 238,
     "IRLCorp:HeatDuct.5": 241,
     "IRLCorp:HeatDuct.6": 240,
     "IRLCorp:FluidPump.31": 279,
@@ -405,7 +405,7 @@
     "IRLCorp:ConveyorBelt.RIGHT": 332,
     "CoreAssets:RedClover": 69,
     "ManualLabor:SiftingTable.BACK": 358,
-    "ManualLabor:TempBlock:engine:eighthBlock": 83,
+    "ManualLabor:TempBlock:engine:eighthBlock": 84,
     "CoreAssets:Tulip": 71,
     "IRLCorp:WoodenAxle.RIGHT": 94,
     "IRLCorp:HeatDuct.18": 228,
@@ -436,7 +436,7 @@
     "IRLCorp:HeatDuct.20": 226,
     "ManualLabor:MetalChest.LEFT": 101,
     "IRLCorp:Sifter.RIGHT": 361,
-    "EdibleFlora:FruitingCherryBush": 54,
+    "EdibleFlora:FruitingCherryBush": 52,
     "IRLCorp:ItemExtractor.LEFT": 368,
     "ManualLabor:Firebox.BACK": 315,
     "IRLCorp:HeatDuct.38": 208,
@@ -478,14 +478,14 @@
     "ManualLabor:Campfire.BACK": 354,
     "IRLCorp:HeatDuct.57": 189,
     "IRLCorp:HeatDuct.54": 192,
-    "EdibleFlora:FruitingBlackberryBush": 61,
+    "EdibleFlora:FruitingBlackberryBush": 59,
     "IRLCorp:HeatDuct.55": 191,
     "IRLCorp:HeatDuct.52": 194,
     "IRLCorp:HeatDuct.53": 193,
     "IRLCorp:HeatDuct.50": 196,
     "ManualLabor:Firebox.RIGHT": 314,
     "IRLCorp:HeatDuct.51": 195,
-    "EdibleFlora:FruitingPearBush": 56,
+    "EdibleFlora:FruitingPearBush": 54,
     "SubstanceMatters:TinOre": 386,
     "CoreAssets:CopperOre": 388,
     "IRLCorp:BlockPlacerAmmoChest.LEFT": 110,
@@ -511,178 +511,10 @@
       "title": "main",
       "seed": "POnlOU4EgbcWMREz",
       "time": 43200000,
-      "worldGenerator": "LudusCore:CustomFacetedSimplex"
+      "worldGenerator": "CoreWorlds:FacetedSimplex"
     }
   },
   "modules": [
-    {
-      "name": "LudusCore",
-      "version": "1.0.0"
-    },
-    {
-      "name": "JoshariasSurvival",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "AdditionalFruits",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "BiomesAPI",
-      "version": "4.1.1-SNAPSHOT"
-    },
-    {
-      "name": "Caves",
-      "version": "1.2.0-SNAPSHOT"
-    },
-    {
-      "name": "ChrisVolume1OST",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "ChrisVolume2OST",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "CoreAdvancedAssets",
-      "version": "1.3.0-SNAPSHOT"
-    },
-    {
-      "name": "CoreRendering",
-      "version": "1.1.2-SNAPSHOT"
-    },
-    {
-      "name": "CoreWorlds",
-      "version": "2.1.0-SNAPSHOT"
-    },
-    {
-      "name": "EdibleSubstance",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "EventualSkills",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "FlowingLiquids",
-      "version": "1.4.0-SNAPSHOT"
-    },
-    {
-      "name": "Hunger",
-      "version": "1.2.0-SNAPSHOT"
-    },
-    {
-      "name": "InGameHelp",
-      "version": "1.2.0-SNAPSHOT"
-    },
-    {
-      "name": "InGameHelpAPI",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "Inventory",
-      "version": "1.6.0-SNAPSHOT"
-    },
-    {
-      "name": "IRLCorp",
-      "version": "1.3.0-SNAPSHOT"
-    },
-    {
-      "name": "Machines",
-      "version": "1.3.1-SNAPSHOT"
-    },
-    {
-      "name": "ManualLabor",
-      "version": "1.4.0-SNAPSHOT"
-    },
-    {
-      "name": "ManualLaborEventualSkills",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "OreGeneration",
-      "version": "2.1.0-SNAPSHOT"
-    },
-    {
-      "name": "PlantPack",
-      "version": "1.2.2-SNAPSHOT"
-    },
-    {
-      "name": "SimpleFarming",
-      "version": "2.2.0-SNAPSHOT"
-    },
-    {
-      "name": "Thirst",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "WorkstationInGameHelp",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "WorldlyTooltip",
-      "version": "1.3.0-SNAPSHOT"
-    },
-    {
-      "name": "Workstation",
-      "version": "1.2.0-SNAPSHOT"
-    },
-    {
-      "name": "engine",
-      "version": "5.4.0-SNAPSHOT"
-    },
-    {
-      "name": "Fluid",
-      "version": "2.1.0-SNAPSHOT"
-    },
-    {
-      "name": "Health",
-      "version": "2.0.0-SNAPSHOT"
-    },
-    {
-      "name": "WorldlyTooltipAPI",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "CoreAssets",
-      "version": "2.3.0-SNAPSHOT"
-    },
-    {
-      "name": "SubstanceMatters",
-      "version": "2.1.0-SNAPSHOT"
-    },
-    {
-      "name": "ItemRendering",
-      "version": "1.2.0-SNAPSHOT"
-    },
-    {
-      "name": "Drops",
-      "version": "1.2.0-SNAPSHOT"
-    },
-    {
-      "name": "CustomOreGen",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "Durability",
-      "version": "1.2.0-SNAPSHOT"
-    },
-    {
-      "name": "WildAnimals",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "Behaviors",
-      "version": "1.3.0-SNAPSHOT"
-    },
-    {
-      "name": "NameGenerator",
-      "version": "1.1.0-SNAPSHOT"
-    },
-    {
-      "name": "MarkovChains",
-      "version": "1.6.1-SNAPSHOT"
-    },
     {
       "name": "FlexiblePathfinding",
       "version": "1.1.0-SNAPSHOT"
@@ -692,28 +524,196 @@
       "version": "1.2.0-SNAPSHOT"
     },
     {
-      "name": "MultiBlock",
-      "version": "1.1.1-SNAPSHOT"
+      "name": "ManualLabor",
+      "version": "1.4.0-SNAPSHOT"
     },
     {
-      "name": "StructuralResources",
-      "version": "2.3.0-SNAPSHOT"
-    },
-    {
-      "name": "Notifications",
-      "version": "0.2.0-SNAPSHOT"
+      "name": "WorldlyTooltip",
+      "version": "1.3.0-SNAPSHOT"
     },
     {
       "name": "Explosives",
       "version": "1.1.1-SNAPSHOT"
     },
     {
+      "name": "CoreWorlds",
+      "version": "2.1.0-SNAPSHOT"
+    },
+    {
+      "name": "LudusCore",
+      "version": "1.0.0"
+    },
+    {
+      "name": "IRLCorp",
+      "version": "1.3.0-SNAPSHOT"
+    },
+    {
+      "name": "Fluid",
+      "version": "2.1.0-SNAPSHOT"
+    },
+    {
+      "name": "FlowingLiquids",
+      "version": "1.4.0-SNAPSHOT"
+    },
+    {
+      "name": "CustomOreGen",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "AdditionalFruits",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "OreGeneration",
+      "version": "2.1.0-SNAPSHOT"
+    },
+    {
       "name": "Furnishings",
       "version": "1.3.0-SNAPSHOT"
     },
     {
+      "name": "Caves",
+      "version": "1.2.0-SNAPSHOT"
+    },
+    {
+      "name": "Behaviors",
+      "version": "1.3.0-SNAPSHOT"
+    },
+    {
+      "name": "Durability",
+      "version": "1.2.0-SNAPSHOT"
+    },
+    {
+      "name": "Workstation",
+      "version": "1.2.0-SNAPSHOT"
+    },
+    {
+      "name": "InGameHelpAPI",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "Hunger",
+      "version": "1.2.0-SNAPSHOT"
+    },
+    {
+      "name": "CoreAdvancedAssets",
+      "version": "1.3.0-SNAPSHOT"
+    },
+    {
+      "name": "NameGenerator",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "ItemRendering",
+      "version": "1.2.0-SNAPSHOT"
+    },
+    {
+      "name": "Notifications",
+      "version": "0.2.0-SNAPSHOT"
+    },
+    {
+      "name": "BiomesAPI",
+      "version": "4.1.1-SNAPSHOT"
+    },
+    {
+      "name": "WildAnimals",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "ChrisVolume2OST",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "InGameHelp",
+      "version": "1.2.0-SNAPSHOT"
+    },
+    {
       "name": "MusicDirector",
       "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "Inventory",
+      "version": "1.6.0-SNAPSHOT"
+    },
+    {
+      "name": "WorldlyTooltipAPI",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "SimpleFarming",
+      "version": "2.2.0-SNAPSHOT"
+    },
+    {
+      "name": "Drops",
+      "version": "1.2.0-SNAPSHOT"
+    },
+    {
+      "name": "StructuralResources",
+      "version": "2.3.0-SNAPSHOT"
+    },
+    {
+      "name": "WorkstationInGameHelp",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "engine",
+      "version": "5.4.0-SNAPSHOT"
+    },
+    {
+      "name": "JoshariasSurvival",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "MultiBlock",
+      "version": "1.1.1-SNAPSHOT"
+    },
+    {
+      "name": "SubstanceMatters",
+      "version": "2.1.0-SNAPSHOT"
+    },
+    {
+      "name": "EventualSkills",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "CoreAssets",
+      "version": "2.3.0-SNAPSHOT"
+    },
+    {
+      "name": "EdibleSubstance",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "Thirst",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "CoreRendering",
+      "version": "1.1.2-SNAPSHOT"
+    },
+    {
+      "name": "Health",
+      "version": "2.0.0-SNAPSHOT"
+    },
+    {
+      "name": "MarkovChains",
+      "version": "1.6.1-SNAPSHOT"
+    },
+    {
+      "name": "ChrisVolume1OST",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "Machines",
+      "version": "1.3.1-SNAPSHOT"
+    },
+    {
+      "name": "ManualLaborEventualSkills",
+      "version": "1.1.0-SNAPSHOT"
+    },
+    {
+      "name": "PlantPack",
+      "version": "1.2.2-SNAPSHOT"
     },
     {
       "name": "EdibleFlora",
@@ -721,7 +721,7 @@
     }
   ],
   "moduleConfigs": {
-    "LudusCore:CustomFacetedSimplex": {
+    "CoreWorlds:facetedsimplex": {
       "Trees": {
         "density": 0.2
       },

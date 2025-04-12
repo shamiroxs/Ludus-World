@@ -1,0 +1,9 @@
+{
+  "type": "ExploreModePopupScreen",
+  "skin": "engine:default",
+  "contents": {
+    "type": "UILabel",
+    "id": "messageLabel",
+    "text": ""
+  }
+}

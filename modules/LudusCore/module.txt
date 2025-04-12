@@ -35,5 +35,5 @@
   ],
     "isGameplay": true,
     "isWorld": true,
-    "defaultWorldGenerator": "LudusCore:CustomFacetedSimplex"
+    "defaultWorldGenerator": "CoreWorlds:FacetedSimplex"
 }
