@@ -8,13 +8,18 @@ import org.terasology.luduscore.systems.RenderModeToggleSystem;
 import org.terasology.engine.rendering.assets.mesh.Mesh;
 import org.terasology.luduscore.rendering.TerrainRenderMode; 
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import org.terasology.engine.world.generation.WorldRasterizer;
 
 public class TerrainMeshDispatcher implements BlockMeshGenerator {
 
+    private static final Logger logger = LoggerFactory.getLogger(TerrainMeshDispatcher.class);
+
     private final SmoothTerrainMeshGenerator smoothMeshGenerator;
     private final RenderModeToggleSystem renderModeToggleSystem;
-
+   
     public TerrainMeshDispatcher(SmoothTerrainMeshGenerator smoothMeshGenerator,
                                  RenderModeToggleSystem renderModeToggleSystem) {
         this.smoothMeshGenerator = smoothMeshGenerator;
@@ -23,6 +28,8 @@ public class TerrainMeshDispatcher implements BlockMeshGenerator {
 
     @Override
     public void generateChunkMesh(ChunkView chunkView, ChunkMesh chunkMesh, int x, int y, int z) {
+        logger.info("TerrainMeshDispatcher triggered in generateChunkMesh: Current mode = {}", renderModeToggleSystem.getCurrentMode());
+
         // Delegate to the appropriate mesh generator based on the current render mode
         if (renderModeToggleSystem.getCurrentMode() == TerrainRenderMode.SMOOTH) {
             smoothMeshGenerator.generateChunkMesh(chunkView, chunkMesh, x, y, z);
@@ -34,6 +41,9 @@ public class TerrainMeshDispatcher implements BlockMeshGenerator {
 
     @Override
     public Mesh getStandaloneMesh() {
+        logger.info("TerrainMeshDispatcher triggered in getStandaloneMesh: Current mode = {}", renderModeToggleSystem.getCurrentMode());
+
+
         // Return the appropriate standalone mesh based on the current render mode
         if (renderModeToggleSystem.getCurrentMode() == TerrainRenderMode.SMOOTH) {
             return smoothMeshGenerator.getStandaloneMesh();

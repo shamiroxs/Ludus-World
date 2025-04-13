@@ -7,6 +7,9 @@ import org.terasology.engine.rendering.assets.mesh.MeshBuilder;
 import org.terasology.engine.rendering.primitives.BlockMeshGenerator;
 import org.terasology.engine.rendering.logic.MeshRenderer;
 
+import org.terasology.engine.world.block.BlockArea;
+import org.terasology.engine.world.block.BlockRegionc;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,8 +21,14 @@ public class SmoothTerrainMeshGenerator implements BlockMeshGenerator {
 
     @Override
     public void generateChunkMesh(ChunkView chunkView, ChunkMesh chunkMesh, int x, int y, int z) {
-    
+    /*
         logger.info("Generating SMOOTH terrain mesh at ({}, {}, {})", x, y, z);
+
+        BlockRegionc region = chunkView.getWorldRegion();
+        // Check current pos and its +1 neighbors before building
+    if (region.contains(x, y, z) &&
+        region.contains(x + 1, y, z) &&
+        region.contains(x, y + 1, z)) {
 
         MeshBuilder builder = new MeshBuilder();
 
@@ -29,13 +38,18 @@ public class SmoothTerrainMeshGenerator implements BlockMeshGenerator {
 
         builder.addIndices(0, 1, 2);
 
-    // Now convert the builder into a mesh, usually to preview/test it
         Mesh mesh = builder.build();
+
+        // Optional: inject into chunkMesh or use as needed
+        // chunkMesh.addMeshPart(...);
+    } else {
+        logger.warn("Skipped mesh generation at out-of-bounds pos ({}, {}, {})", x, y, z);
+    }
 
     // ❗ But this mesh is not injected into the chunkMesh
     // Instead, it’s for previewing or returning via `getStandaloneMesh()`
 
-        
+        */
     }
 
     @Override

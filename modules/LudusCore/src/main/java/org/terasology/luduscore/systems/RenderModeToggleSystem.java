@@ -17,6 +17,9 @@ import org.terasology.luduscore.rendering.TerrainRenderMode;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import org.terasology.engine.entitySystem.systems.RegisterMode;
+import org.terasology.engine.entitySystem.systems.RegisterSystem;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
