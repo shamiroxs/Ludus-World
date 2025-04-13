@@ -20,6 +20,8 @@ import org.slf4j.LoggerFactory;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import org.terasology.engine.logic.console.commandSystem.annotations.Command;
+
 @RegisterSystem
 public class RenderModeToggleSystem extends BaseComponentSystem {
 
@@ -57,9 +59,17 @@ public class RenderModeToggleSystem extends BaseComponentSystem {
             event.consume();
         }
     }
-
+    public void toggleRenderMode() {
+        currentMode = (currentMode == TerrainRenderMode.BLOCKY) ? TerrainRenderMode.SMOOTH : TerrainRenderMode.BLOCKY;
+    }
+    
     public TerrainRenderMode getCurrentMode() {
         return currentMode;
+    }
+    
+    @Command(shortDescription = "Toggle between blocky and smooth terrain rendering modes")
+    public void toggleRenderModeCommand() {
+        toggleRenderMode();
     }
     
        

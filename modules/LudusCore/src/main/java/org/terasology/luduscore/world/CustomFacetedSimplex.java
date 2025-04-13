@@ -33,7 +33,7 @@ public class CustomFacetedSimplex extends BaseFacetedWorldGenerator {
     }
 
     @Override
-    protected WorldBuilder createWorld() {
+    protected WorldBuilder createWorld() {    
         int seaLevel = 15;
 
         return new WorldBuilder(pluginLibrary)
